@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Interfaces;
 
 public interface IsiKulkas {
     int MAX_PER_ITEM = 10;

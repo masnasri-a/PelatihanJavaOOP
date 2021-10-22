@@ -1,15 +1,18 @@
 package org.example;
 
+import org.example.ChildClass.Semangka;
+import org.example.Interfaces.IsiKulkas;
+import org.example.ParentClass.Kulkas;
+
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
 
-        IsiKulkas semangka = new Wortel();
+        IsiKulkas semangka = new Semangka();
         Kulkas kulkasNasri = new Kulkas(semangka);
+
         BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
         int aksi;
         boolean loops = true;

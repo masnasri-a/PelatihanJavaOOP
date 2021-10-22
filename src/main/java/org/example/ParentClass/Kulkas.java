@@ -1,4 +1,6 @@
-package org.example;
+package org.example.ParentClass;
+
+import org.example.Interfaces.IsiKulkas;
 
 public class Kulkas {
 
@@ -8,16 +10,16 @@ public class Kulkas {
         this.isiKulkas = isiKulkas;
     }
 
-    void bukaPintuKulkas(){
+    public void bukaPintuKulkas(){
         this.isiKulkas.bukaKulkas();
     }
-    void tutupPintuKulkas(){
+    public void tutupPintuKulkas(){
         this.isiKulkas.tutupKulkas();
     }
-    void tambahIsiKulkas(){
+    public void tambahIsiKulkas(){
         this.isiKulkas.tambahItem();
     }
-    void kurangIsiKulkas(){
+    public void kurangIsiKulkas(){
         this.isiKulkas.kurangItem();
     }
 }

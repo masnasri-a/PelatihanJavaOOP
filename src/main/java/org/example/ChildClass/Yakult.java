@@ -1,11 +1,13 @@
-package org.example;
+package org.example.ChildClass;
 
-public class Semangka implements IsiKulkas{
+import org.example.Interfaces.IsiKulkas;
+
+public class Yakult implements IsiKulkas {
 
     private int isiItemKulkas;
     private boolean kondisiKulkas;
 
-    public Semangka(){
+    public Yakult(){
         this.isiItemKulkas = 5;
     }
 
@@ -38,7 +40,7 @@ public class Semangka implements IsiKulkas{
 
             }else {
                 this.isiItemKulkas+=1;
-                System.out.println("Semangka ditambah jadi "+this.isiItemKulkas);
+                System.out.println("Yakult ditambah jadi "+this.isiItemKulkas);
                 System.out.println("\n\n");
 
             }
@@ -56,7 +58,7 @@ public class Semangka implements IsiKulkas{
                 System.out.println("\n\n");
             }else {
                 this.isiItemKulkas-=1;
-                System.out.println("Semangka dikurang jadi "+this.isiItemKulkas);
+                System.out.println("Yakult dikurang jadi "+this.isiItemKulkas);
                 System.out.println("\n\n");
             }
         }else {
